@@ -1,0 +1,121 @@
+
+/*.image{
+    text-align: center;
+    /*width: 100%;
+    height: 200px;
+}*/
+.container{
+    background-color: rgb(245, 241, 239);
+   /* height: 900px;
+    width: 900px;*/
+    display: grid;
+    /*grid-template-columns: 3;
+    grid-template-rows: 5;*/
+    padding: 2em;
+    /*grid-template-columns: 100% 30% 20% 30% 20%;*/
+}
+header{
+    /*background-color: blue;
+    height: 100px;
+    /*width: 122px;*/
+    text-align: center;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(65, 11, 22);
+}
+hr{
+    border-top: 1px solid rgb(65, 11, 22);
+}
+.container2{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    padding: 1rem;
+}
+ul{
+    list-style: none;
+    font-style: italic;
+    font-size: 19px;
+}
+#facilities{
+    /*background-color: rgb(30, 255, 0);
+   /* height: 122px;
+    width: 222px; */
+    border-radius: 10px;
+}
+.f1{
+    text-align: center;
+    text-decoration: underline;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+#description{
+    /*background-color: rgb(255, 238, 0);*/
+    height: 262px;
+    /*width: 122px;*/
+    border-radius: 10px;
+    border: dashed 1px black;
+    margin:20px;
+    padding: 20px;
+}
+.book{
+    margin: 13px;
+    padding: 7px;
+    border: 5px;
+    color: white;
+    background-color: rgb(65, 11, 22);
+}
+#services{
+   /* background-color: rgb(0, 162, 255);
+    /*height: 122px;
+    width: 222px; */
+    border-radius: 10px;
+}
+.s1{
+    text-align: center;
+    text-decoration: underline;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.item2{
+    /*background-color: coral;*/
+}
+footer{
+   /* background-color: coral;*/
+    text-align: center;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(65, 11, 22);
+}
+.offer{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 1rem;
+    
+}
+.img1{
+    width: 330px;
+    height: 200px;
+   /*background-color: cornflowerblue;*/
+   border: 5px solid white;
+}
+.p1{
+    /*background-color: crimson;*/
+    /*margin: 20px;*/
+    
+}
+.img2{
+    /*background-color: darkgrey;*/
+    width: 330px;
+    height: 200px;
+    border: 5px solid white;
+}
+.p1,.p2{
+    /*background-color: darkolivegreen;*/
+    margin: 20px;
+    font-size: 17px;
+    font-style: italic;
+}
+h1,h2{
+    font-size: 25px;
+    color: rgb(65, 11, 22);
+}

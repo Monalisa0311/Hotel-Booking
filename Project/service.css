@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blueviolet;
+}
+#container{
+    /*width: 990px;*/
+    column-gap: 200px;
+}
+header{
+    background-color: red;
+    height: 70px;
+    text-align: center;
+}
+.main{
+    column-gap: 200px;
+}
+ul{
+    list-style: none;
+}
+#facilities{
+    background-color: chartreuse;
+    height: 550px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    border: 20px;
+    border-radius: 20px;
+    padding: 20px;
+}
+li ::before{
+    color:red;
+}
+#services{
+    background-color: blue;
+    height: 550px;
+    width: 200px;
+    float: right;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: left;
+    padding: 20px;
+    padding-top: 30px;
+    
+}
+#description{
+    background-color: darkgoldenrod;
+    /*margin-left: 220px;
+    margin-right: 220px;*/
+    border-style: dashed;
+   /* padding: 20px;*/
+    justify-content: center;
+    margin: 20px;
+}
+/*#services{
+    background-color: blue;
+    min-height: 350px;
+    width: 200px;
+    float: right;
+    
+}*/
+footer{
+    background-color: burlywood;
+}

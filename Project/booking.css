@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&display=swap');
+header{
+    text-align: center;
+    font-size: 60px;
+    color: indigo;
+    font-weight: bold;
+    font-family: 'Abril Fatface', cursive;
+    padding: 30px;
+    /*text-shadow: 12px 12px red;*/
+    animation: text 10s infinite;
+}
+@keyframes text{
+    50% {text-shadow: 5px 15px 20px blue;}
+}
+.container{
+    display: grid;
+    /*grid-template-columns: 500px auto 500px;*/
+    grid-template-columns: 25% 49% 25%;
+    grid-column-gap:10px;
+    grid-row-gap: 20px;
+    /*background-color: rgb(147, 136, 223);*/
+    
+}
+/*.item{
+background-color:yellow;
+margin: 10px;
+/*height: 300px;*
+}*/
+.item1{
+   /* background-color: tomato;*/
+   background-color: white;
+    margin: 20px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 10px 0 40px gray;
+
+}
+/*.item:first-child{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+,item:nth-child(){
+    grid-row-start: 1;
+    grid-row-end: 3; 
+}*/
+.offer img{
+    width: 100%;
+}
+h1{
+    font-size: 20px;
+    color:rgb(63, 3, 3) ;
+}
+.p1 p{
+    font-size: 17px;
+    color: rgb(150, 114, 114);
+}
+.item2{
+    background-color: rgb(111, 133, 155);
+    margin: 20px;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 10px 0 40px gray;
+    border: 5px solid grey;
+}
+.room1 img{
+    width: 70%;
+    height: 250px;
+    /*height: 20%;*/
+    float: left;
+} 
+.item2 .side1{
+    width: 23%;
+    height: 220px;
+    float: right;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border: 2px dashed white;
+}
+.d1 p{
+    width: 100%;
+}
+.item3{
+   /* background-color: violet;*/
+    height: 100px;
+    position: relative;
+    margin: 20px;
+}
+.button1{
+    margin: 0;
+    position: absolute;
+    background-color: rgb(63, 3, 3);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+li{
+    list-style: none;
+    font-size: 17px;
+}
+.item4{
+    background-color: teal;
+    margin: 20px;
+    border: 2px dashed white;
+}
+h2{
+    font-size: 26px;
+    text-align: center;
+    color: rgb(63, 3, 3);
+}
+ul li{
+    /*font-size: 17px;*/
+    font-style: italic;
+    color: white;
+}
+
+.item5{
+    background-color: rgb(111, 133, 155);
+    margin: 20px;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 10px 0 40px gray;
+    border: 5px solid grey;
+}
+.room2 img{
+    width: 70%;
+    height: 250px;
+    float: left;
+}
+.item5 .side2{
+    width: 23%;
+    height: 220px;
+    float: right;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border: 2px dashed white;
+}
+.d2 p{
+    width: 100%;
+}
+
+.item6{
+    background-color: teal;
+    margin: 20px;
+    border: 2px dashed white;
+}
+h3{
+    font-size: 26px;
+    text-align: center;
+    color: rgb(63, 3, 3);
+}
+.button2{
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(63, 3, 3);
+    color: white;
+    padding: 5px;
+}
+.item7{
+    background-color: white;
+    margin: 20px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 10px 0 40px gray;
+}
+.book_now img{
+    width:100%;
+}
+.p2{
+    border: 2px solid rgb(63, 3, 3) ;
+    margin-bottom: 5px;
+}
+h4{
+    font-size: 20px;
+    color:rgb(63, 3, 3) ;
+}
+.p2 p{
+    font-size: 17px;
+    color: rgb(100, 54, 54);
+}
+.item8{
+    background-color: rgb(111, 133, 155);
+    margin: 20px;
+    padding: 15px;
+    height: 300px;
+    border-radius: 25px;
+    box-shadow: 10px 0 40px gray;
+    border: 5px solid grey;
+}
+.room3 img{
+    width: 70%;
+    height: 250px;
+    float: left;
+}
+.item8 .side3{
+    width: 23%;
+    height: 220px;
+    float: right;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border: 2px dashed white;
+}
+.d3 p{
+    width: 100%;
+}
